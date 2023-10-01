@@ -19,7 +19,7 @@ export default defineConfig({
   },
   base: './',
   build: {
-    watch: true,
+    watch: false,
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
